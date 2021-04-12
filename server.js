@@ -4,14 +4,15 @@ const client = new Discord.Client({
   autoReconnect: true
 });
 require("./turemeosta/yukleoc.js")(client);
+
 client.on("ready", () => {
   console.log(
-    `[BOT]: ${client.user.tag} ismiyle bağlandım!\n[BOT]: İyi kullanımlar!`
+    `[BOT]: ${client.user.tag} ismiyle bağlandım!`
   );
   client.user.setPresence({
     activity: {
-      name: `turemeosta`,
-      url: "https://www.twitch.tv/turemeosta",
+      name: `v12 bos altyapi`,
+      url: "https://www.twitch.tv/archexmelih",
       type: "STREAMING"
     },
     status: "idle"
