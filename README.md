@@ -14,3 +14,4 @@
 
   * token için server.js içine gir en aşağı in process.env.token yazan yerini `require("./ayarlar.json").token` olarak değiştirin.
   * prefix için events klasöründen message.js klasörüne girip **let prefix = process.env.prefix** yazan yeri **let prefix = require("../ayarlar.json").prefix** olarak değiştirin.
+  * https://discord.gg/SGdy3jtMCB
